@@ -1,0 +1,18 @@
+
+ul li {color:green;}
+ol li {color:red;}
+
+div > p {color:red;}
+ div span span p {color:blue;}
+ p+h1{color:green;}
+ div span + p {color:yellow;}
+ 
+ table { border-collapse: collapse;
+		width: 100%;}
+ #table1 tr td h1 {color:blue;}
+ #table1 tr td  {color:red;}
+ #table2 tr td + td h1 {color:blue;}
+ #table2 tr td  {color:red;}
+ #table2 tr td h1 {color:black;}
+ #table2 tr + tr td {color:green;}
+ td {border: solid #333;}
